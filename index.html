@@ -3,463 +3,528 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SEF - Project 1</title>
+    <title>SEF - Project 2</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&family=Special+Elite&display=swap" rel="stylesheet">
 </head>
 <body>
-        <nav>
-            <div class="nav-left-content">
-                <div class="home-icon">
-                    <i class="fas fa-home"></i>
-                </div> <!-- home-icon -->
-                <div class="search-input">
-                    <i class="fas fa-search"></i>
-                    <input type="text">
-                </div> <!-- search-input -->
-            </div> <!-- nav-left-content -->
-            <div class="nav-right-content">
-                <div class="list">
+    <nav>
+        <div class="upper-nav">
+            <div class="upper-nav-container container-width">
+                <div class="upper-left-content">
+                    <div class="upper-left-h6">
+                        <h6>About Us</h6>
+                    </div>
+                    <div class="upper-left-h6">
+                        <h6>Privacy</h6>
+                    </div>
+                    <div class="upper-left-h6">
+                        <h6>FAQ</h6>
+                    </div>
+                    <div class="upper-left-h6">
+                        <h6>Careers</h6>
+                    </div>
+                </div>
+                <div class="upper-right-content">
+                    <div class="track-case-parent">
+                        <div class="track-case track-case1">
+                            <h6>Case Files</h6>
+                        </div>
+                        <div class="track-case track-case2">
+                            <h6>Track a Case</h6>
+                        </div>
+                    </div>
+                    <div class="nav-social-media">
+                        <div class="nav-social-icon">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </div>
+                        <div class="nav-social-icon">
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                        <div class="nav-social-icon">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                        <div class="nav-social-icon">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </div>
+                        <div class="nav-social-icon">
+                            <i class="fa-brands fa-youtube"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-nav">
+            <div class="main-nav-conteiner container-width">
+                <div class="main-left-content">
+                    <div class="main-logo">
+                        <img src="images/mini-logo3.png" alt="logo">
+                    </div>
+                    <div class="logo-text">
+                        <h4>CASE <span>ZERO</span></h4>
+                    </div>
+                </div>
+                <div class="main-middle-content">
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Programs</a></li>
-                        <li><a href="#">Trainers</a></li>
-                        <li><a href="#">Membership</a></li>
-                        <li><a href="#">Testimonials</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul> <!-- ul -->
-                </div> <!-- list -->
-            </div> <!-- nav-right-content -->
-        </nav> <!-- nav -->
-        <div class="home">
-            <div class="home-overlay">
-                <div class="home-content">
-                    <h1>Transform Your Body, Transform Your Life</h1>
-                    <p>Join our fitness community and achieve your goals with expert trainers, modern equipment, and personalized workout plans.</p>
-                    <div class="home-btns">
-                        <button class="home-join btn" >Join Now</button>
-                        <button class="home-explore btn">Explore Programs</button>
+                        <li class="main-middle-li">
+                            <a href="#" class="main-middle-a">HOME</a>
+                            <span class="border-top"></span>
+                            <span class="border-right"></span>
+                            <span class="border-bottom"></span>
+                            <span class="border-left"></span>
+                        </li>
+                        <li class="main-middle-li cases dropdown">
+                            <a href="#" class="main-middle-a">CASES <i class="fa-solid fa-chevron-down"></i></a>
+                            <span class="border-top"></span>
+                            <span class="border-right"></span>
+                            <span class="border-bottom"></span>
+                            <span class="border-left"></span>
+                            <div class="cases-dropdown items-dropdown">
+                                <span class="cases-dropdown-head items-dropdown-head">CASES DATABASE</span>
+                                <div class="cases-dropdown-items items-dropdown-items">
+                                    <div class="cases-dropdown-items-left items-dropdown-left">
+                                        <h4>Active Cases</h4>
+                                        <h4>Cold Cases</h4>
+                                    </div>
+                                    <div class="cases-dropdown-items-right items-dropdown-right">
+                                        <h4>Solved Cases</h4>
+                                        <h4>Classified</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="main-middle-li">
+                            <a href="#" class="main-middle-a">EVIDENCE</a>
+                            <span class="border-top"></span>
+                            <span class="border-right"></span>
+                            <span class="border-bottom"></span>
+                            <span class="border-left"></span>
+                        </li>
+                        <li class="main-middle-li dropdown">
+                            <a href="#" class="main-middle-a">INVESTIGATORS <i class="fa-solid fa-chevron-down"></i></a>
+                            <span class="border-top"></span>
+                            <span class="border-right"></span>
+                            <span class="border-bottom"></span>
+                            <span class="border-left"></span>
+                            <div class="inves-dropdown items-dropdown">
+                                <span class="inves-dropdown-head items-dropdown-head">SPECIALIST UNIT</span>
+                                <div class="inves-dropdown-items items-dropdown-items">
+                                    <div class="inves-dropdown-items-left items-dropdown-items-left">
+                                        <h4>Lead Detectives</h4>
+                                        <h4>Forensics</h4>
+                                    </div>
+                                    <div class="cases-dropdown-items-right items-dropdown-items-right">
+                                        <h4>Cyber Crime</h4>
+                                        <h4>Field Agents</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="main-middle-li">
+                            <a href="#" class="main-middle-a">CONTACT</a>
+                            <span class="border-top"></span>
+                            <span class="border-right"></span>
+                            <span class="border-bottom"></span>
+                            <span class="border-left"></span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="main-right-content">
+                    <div class="btns">
+                        <i class="fa-solid fa-search"></i>
+                        <i class="fa-solid fa-user"></i>
+                        <i class="fa-solid fa-user-secret detective-i"><h5 class="detective-h">2</h5></i>
                     </div>
-                </div> <!-- /home-content -->
-            </div> <!-- /home-overlay -->
-        </div> <!-- /home -->
-        <div class="about-us">
-            <h2>About Energy Gym</h2>
-            <p class="sec-line"></p> 
-            <p class="about-content">Energy Gym is dedicated to helping members achieve their fitness goals through professional coaching, state-of-the-art equipment, and a motivating environment.</p>
-        </div> <!-- /about-us -->
-        <div class="why">
-            <h2>Why Choose Us</h2>
-            <p class="sec-line"></p>
-            <div class="why-container">
-                <div class="card card1">
-                    <i class="fas fa-user-tie"></i>
-                    <h3>Expert Trainers</h3>
-                    <p>Work with certified trainers to achieve your fitness goals faster.</p>
-                    <a href="">Learn More</a>
-                </div>
-                <div class="card card2">
-                    <i class="fas fa-dumbbell"></i>
-                    <h3>Modern Equipment</h3>
-                    <p>Train with state-of-the-art machines and premium fitness equipment.</p>
-                    <a href="">Learn More</a>
-                </div>
-                <div class="card card3">
-                    <i class="fas fa-utensils"></i>
-                    <h3>Nutrition Plans</h3>
-                    <p>Get personalized meal plans and nutrition guidance tailored for you.</p>
-                    <a href="">Learn More</a>
                 </div>
             </div>
-        </div> <!-- /why -->
-        <div class="our-programs">
-            <h2>Our Programs</h2>
-            <p class="sec-line"></p>
-            <div class="prog-container">
-                <div class="card card1">
-                    <div class="card-overlay">
-                        <div class="card-content">
-                            <h3>Personal Training</h3>
-                            <p>Personalized coaching</p>
-                            <div class="prog-card-icon">
-                                <i class="fas fa-user-tie"></i>
-                                <i class="fa-brands fa-instagram"></i>
-                            </div>    
-                        </div>
+        </div>
+        <div class="lower-nav">
+            <div class="lower-nav-container">
+                <h5>NEW CASE ALERT.    A NEW MYSTERY AWAITS.    <span>[INVESTIGATE NOW]</span></h5>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="container-overlay">
+            <div class="container-content">
+                <h3>CASE <span>ZERO</span></h3>
+                <h4>INVESTIGATION AGENCY</h4>
+                <h1>THE TRUTH <span class="is">IS HIDDEN.</span></h1>
+                <p class="content-p">Some cases are <span class="f">forgotten</span>.</p>
+                <p>Some are never meant to be solved</p>
+                <p>We follow every clue until the truth is <span class="re">revealed</span>.</p>
+                <button>OPEN CASE #001</button>
+            </div>
+            
+        </div>
+    </main>
+    <section class="cur-inves">
+        <div class="cur-inves-container container-width">
+            <h4>CURRENT INVESTIGATIONS</h4>
+            <h1>CASE FILES</h1>
+            <div class="cur-inves-parent">
+                <div class="case-card case-card1">
+                    <div class="card-overlay card-overlay1">
+                    <div class="card-content">
+                        <h3>CASE #001 — <span class="case-title">THE GARRON</span></h3>
+                        <p>A missing person. Three suspects. One unexplained witness.</p>
+                        <button>VIEW CASE</button>
                     </div>
-                </div> <!-- /card1 -->
-                <div class="card card2">    
-                    <div class="card-overlay">
-                        <div class="card-content">
-                            <h3>Strength Training</h3>
-                            <p>Increase strength and muscle.</p>
-                            <div class="prog-card-icon">
-                                <i class="fas fa-dumbbell"></i>
-                                <i class="fa-solid fa-bolt"></i>
-                            </div>    
-                        </div>
                     </div>
-                </div> <!-- /card2 -->
-                <div class="card card3">
-                    <div class="card-overlay">
-                        <div class="card-content">
-                            <h3>Cardio Programs</h3>
-                            <p>Improve your endurance.</p>
-                            <div class="prog-card-icon">
-                                <i class="fas fa-utensils"></i>
-                                <i class="fa-solid fa-heart-pulse"></i>
-                            </div>    
-                        </div>
-                    </div>
-                </div> <!-- /card3 -->
-                <div class="card card4">
-                    <div class="card-overlay">
-                        <div class="card-content">
-                            <h3>Group Classes</h3>
-                            <p>Fun and energetic sessions</p>
-                            <div class="prog-card-icon">
-                                <i class="fa-solid fa-people-group"></i>
-                                <i class="fa-solid fa-dumbbell"></i>
-                            </div>    
-                        </div>
-                    </div>
-                </div>
-                <div class="card card5">
-                    <div class="card-overlay">
-                        <div class="card-content">
-                            <h3>Nutrition Guidance</h3>
-                            <p>Healthy eating guidance</p>
-                            <div class="prog-card-icon">
-                                <i class="fa-solid fa-dumbbell"></i>
-                                <i class="fa-solid fa-weight-scale"></i>
-                            </div>    
-                        </div>
-                    </div>
-                </div>
-                <div class="card card6">
-                    <div class="card-overlay">
-                        <div class="card-content">
-                            <h3>Body Transformation Plans</h3>
-                            <p>Transform your body</p>
-                            <div class="prog-card-icon">
-                                <i class="fas fa-user-tie"></i>
-                                <i class="fa-solid fa-dumbbell"></i>
-                            </div>    
-                        </div>
-                    </div>
-                </div>
-            </div> <!-- /prog-container -->
-        </div> <!-- /our-programs -->
-        <div class="what-we-offer">
-            <h2>What We Offer</h2>
-            <p class="sec-line"></p>
-            <div class="what-container">
-                <div class="card card1">
-                    <div class="card-overlay">
-                        <div class="card-content">
-                            <i class="fa-solid fa-clock"></i>
-                            <h3>24/7 Access</h3>
-                            <p>Access our facilities anytime, anywhere.</p>
-                        </div>
-                    </div>
-                </div> <!-- /card1 -->
-                <div class="card card2">    
-                    <div class="card-overlay">
-                        <div class="card-content">
-                            <i class="fa-solid fa-building"></i>
-                            <h3>Modern Facilities</h3>
-                            <p>Our facilities are equipped with the latest technology and equipment.</p>   
-                        </div>
-                    </div>
-                </div> <!-- /card2 -->
-                <div class="card card3">
-                    <div class="card-overlay">
-                        <div class="card-content">
-                            <i class="fa-solid fa-car"></i>
-                            <h3>Free Parking</h3>
-                            <p>Enjoy free parking at our facilities.</p>    
-                        </div>
-                    </div>
-                </div> <!-- /card3 -->
-                <div class="card card4">
-                    <div class="card-overlay">
-                        <div class="card-content">
-                            <i class="fa-solid fa-cookie"></i>
-                            <h3>Protein Bar</h3>
-                            <p>Refresh your body with our protein bar.</p>     
-                        </div>
-                    </div>
-                </div>
-                <div class="card card5">
-                    <div class="card-overlay">
-                        <div class="card-content">
-                            <i class="fa-solid fa-chart-line"></i>
-                            <h3>Fitness Tracking</h3>
-                            <p>Track your progress with our fitness tracking system.</p>     
-                        </div>
-                    </div>
-                </div>
-                <div class="card card6">
-                    <div class="card-overlay">
-                        <div class="card-content">
-                            <i class="fa-solid fa-lock"></i>
-                            <h3>Secure Lockers</h3>
-                            <p>Keep your belongings safe with our secure locker system.</p>   
-                        </div>
-                    </div>
-                </div>
-            </div> <!-- /what-container -->
-        </div> <!-- /what-we-offer -->
-        <div class="statistics">
-            <div class="stat-container">
-                <div class="card card1">
-                    <i class="fa-solid fa-users"></i>
-                    <h3>500+</h3>
-                    <p>Members</p>
-                </div>
-                <div class="card card2">
-                    <i class="fa-solid fa-dumbbell"></i>
-                    <h3>20+</h3>
-                    <p>Expert Trainers</p>
-                </div>
-                <div class="card card3">
-                    <i class="fa-solid fa-calendar"></i>
-                    <h3>10+</h3>
-                    <p>Years Experience</p>
-                </div>
-                <div class="card card4">
-                    <i class="fa-solid fa-calendar-alt"></i>
-                    <h3>100+</h3>
-                    <p>Weekly Classes</p>
-                </div>
-            </div> <!-- /stat-container -->
-        </div> <!-- /statistics -->
-        <div class="pricing">   
-            <h2>Membership Plans</h2>
-            <p class="sec-line"></p>
-            <div class="price-container">
-                <div class="card card1">
-                    <div class="card-overlay">
-                        <div class="card-content">
-                            <h4>Basic Plan</h4>
-                            <div class="plan-circle">
-                                <h3>$19.99</h3>
-                                <p>/month</p>
-                            </div>
-                            <ul>
-                                <li>Gym Access</li>
-                                <li>Cardio Area</li>
-                                <li>Locker Access</li>
-                            </ul>
-                            <button>Get Started</button>
-                        </div>
-                    </div>
-                </div> <!-- /card1 -->
-                <div class="card card2">    
-                    <div class="card-overlay">
-                        <div class="card-content">
-                            <h4>Standard Plan</h4>
-                            <div class="plan-circle">
-                                <h3>$39.99</h3>
-                                <p>/month</p>
-                            </div>
-                            <ul>
-                                <li>Group Classes</li>
-                                <li>Locker Access</li>
-                                <li>Nutrition Guidance</li>
-                            </ul>
-                            <button>Get Started</button>  
-                        </div>
-                    </div>
-                </div> <!-- /card2 -->
-                <div class="card card3">
-                    <div class="card-overlay">
-                        <div class="card-content">
-                            <h4>Premium Plan</h4>
-                            <div class="plan-circle">
-                                <h3>$59.99</h3>
-                                <p>/month</p>
-                            </div>
-                            <ul>
-                                <li>Personal Training</li>
-                                <li>Nutrition Plan</li>
-                                <li>Body Transformation Program</li>
-                            </ul>
-                            <button>Get Started</button> 
-                        </div>
-                    </div>
-                </div> <!-- /card3 -->
-            </div> <!-- /price-container -->
-        </div> <!-- /pricing -->
-        <div class="Clients-review">
-            <div class="rev-container">
-                <div class="card card1">
-                    <div class="rev-pic">
-                        <img src="./images/user1.jpg" alt="">
-                    </div>
-                    <h4>Omar Kadry</h4>
-                    <h5>The trainers are incredibly supportive, and the atmosphere keeps me motivated every day.</h5>
-                </div>
-                <div class="card card1">
-                    <div class="rev-pic">
-                        <img src="./images/user2.jpg" alt="">
-                    </div>
-                    <h4>Ahmed Salah</h4>
-                    <h5>Clean facilities, modern equipment, and great workout programs. Highly recommended!.</h5>
-                    
-                </div>
-            </div> <!-- /rev-container -->
-        </div> <!-- /Clients-review -->
-        <div class="trainers">   
-            <h2>Our Professional Trainers</h2>
-            <p class="sec-line"></p>
-            <div class="trainer-container">
-                <div class="card-parent">
-                    <div class="card card1">
-                        <div class="card-img">
-                            <img src="./images/newTrainer1.png" alt="trainer" width="350px" height="350px"> 
-                            <div class="card-overlay">
-                                <a href=""><i class="fa-brands fa-facebook-f i1"></i></a>
-                                <a href=""><i class="fa-brands fa-linkedin i2"></i></a>
-                                <a href=""><i class="fa-brands fa-x-twitter i3"></i></a>
-                            </div>
-                        </div> <!-- /card-img -->
-                        <div class="card-info">
-                            <h3>John Carter</h3>
-                            <p>Specializing in muscle building and strength training.</p>
-                        </div> <!-- /card-info -->
-                    </div> <!-- /card1 -->
-                    <div class="card card2">
-                        <div class="card-img">
-                            <img src="./images/newTrainer2.png" alt="trainer" width="350px" height="350px"> 
-                            <div class="card-overlay">
-                                <a href=""><i class="fa-brands fa-facebook-f i1"></i></a>
-                                <a href=""><i class="fa-brands fa-linkedin i2"></i></a>
-                                <a href=""><i class="fa-brands fa-x-twitter i3"></i></a>
-                            </div>
-                        </div> <!-- /card-img -->
-                        <div class="card-info">
-                            <h3>Michael Brown</h3>
-                            <p>Expert in nutrition and body transformation.</p>
-                        </div> <!-- /card-info -->
-                    </div> <!-- /card2 -->
-                    <div class="card card3">
-                        <div class="card-img">
-                            <img src="./images/newTrainer3.png" alt="trainer" width="350px" height="350px"> 
-                            <div class="card-overlay">
-                                <a href=""><i class="fa-brands fa-facebook-f i1"></i></a>
-                                <a href=""><i class="fa-brands fa-linkedin i2"></i></a>
-                                <a href=""><i class="fa-brands fa-x-twitter i3"></i></a>
-                            </div>
-                        </div> <!-- /card-img -->
-                        <div class="card-info">
-                            <h3>David Miller</h3>
-                            <p>Personalized training plans for every level.</p>
-                        </div> <!-- /card-info -->
-                    </div> <!-- /card3 -->
 
-                </div>  <!-- /card-parent -->
-            </div> <!-- /trainer-container -->
-        </div> <!-- /trainers -->
-        <div class="facilities">   
-            <div class="fac-container">
-                <div class="card card1">
-                    <h2>Our Facilities</h2>
-                    <p class="sec-line"></p>
-                    <div class="card-overlay">
-                        <div class="card-content">
-                            <p>Experience a modern training environment designed to help you perform at your best.</p>
-                            <ul>
-                                <li><i class="fa-solid fa-check"></i>State-of-the-art equipment.</li>
-                                <li><i class="fa-solid fa-check"></i>Spacious workout areas.</li>
-                                <li><i class="fa-solid fa-check"></i>Premium locker rooms.</li>
-                                <li><i class="fa-solid fa-check"></i>Clean & hygienic environment.</li>
-                            </ul>
-                        </div>
+                </div>
+                <div class="case-card case-card2">
+                    <div class="card-overlay card-overlay2">
+                    <div class="card-content">
+                        <h3>CASE #011 — <span class="case-title">THE RED ROOM</span></h3>
+                        <p>No fingerprints. No forced entry. One room locked from inside.</p>
+                        <button>VIEW CASE</button>
                     </div>
-                </div> <!-- /card1 -->
-                <div class="card card2">    
-                    <div class="card-overlay">
-                        <div class="card-content">
-                        </div>
                     </div>
-                </div> <!-- /card2 -->
-                <div class="three-circles">
-                    <p class="c1"></p>
-                    <p class="c2"></p>
-                    <p class="c3"></p>
+
                 </div>
-            </div> <!-- /fac-container -->
-        </div> <!-- /facilities -->
-        <div class="news">   
-            <h2>Recent News</h2>
-            <p class="sec-line"></p>
-            <div class="news-container">
-                <div class="card-parent">
-                    <div class="card card1">
-                        <div class="card-img">
-                            <img src="./images/newNews1.png" alt="news"> 
-                        </div> <!-- /card-img -->
-                        <div class="card-social">
-                            <a href=""><i class="fa-brands fa-facebook-f i1"></i> Nathan Collins</a>
-                            <a href="" class="a2"><i class="fa-brands fa-linkedin i2"></i> 10 JAN</a>
-                            <a href=""><i class="fa-brands fa-x-twitter i3"></i> 1.5K</a>
-                        </div> <!-- /card-social -->
-                        <div class="card-info">
-                            <h3>5 Tips to Maximize Your Workout</h3>
-                            <p>Learn simple techniques to improve your performance and achieve better results.</p>
-                            <a href="">Read More</a>
-                        </div> <!-- /card-info -->
-                    </div> <!-- /card1 -->
-                    <div class="card card2">
-                        <div class="card-img">
-                            <img src="./images/newNews2.png" alt="news"> 
-                        </div> <!-- /card-img -->
-                        <div class="card-social">
-                            <a href=""><i class="fa-brands fa-facebook-f i1"></i> Jason Turner</a>
-                            <a href="" class="a2"><i class="fa-brands fa-linkedin i2"></i> 05 AUG</a>
-                            <a href=""><i class="fa-brands fa-x-twitter i3"></i> 2.3K</a>
-                        </div> <!-- /card-social -->
-                        <div class="card-info">
-                            <h3>Healthy Nutrition for Muscle Growth</h3>
-                            <p class="p2">Discover the best foods to support recovery and build lean muscle.</p>
-                            <a href="" class="">Read More</a>
-                        </div> <!-- /card-info -->
-                    </div> <!-- /card2 -->
-                    <div class="card card3">
-                        <div class="card-img">
-                            <img src="./images/newNews3.png" alt="news"> 
-                        </div> <!-- /card-img -->
-                        <div class="card-social">
-                            <a href=""><i class="fa-brands fa-facebook-f i1"></i> Mason Reed</a>
-                            <a href="" class="a2"><i class="fa-brands fa-linkedin i2"></i> 19 FEB</a>
-                            <a href=""><i class="fa-brands fa-x-twitter i3"></i> 3.1K</a>
-                        </div> <!-- /card-social -->
-                        <div class="card-info">
-                            <h3>Why Personal Training Makes a Difference</h3>
-                            <p class="p3">Find out how expert coaching helps you reach your fitness goals faster.</p>
-                            <a href="" class="">Read More</a>
-                        </div> <!-- /card-info -->
-                    </div> <!-- /card3 -->
-                </div>  <!-- /card-parent -->
-            </div> <!-- /news-container -->
-        </div> <!-- /news -->
-        <div class="footer">
-            <div class="f-container">
-                <div class="logo-parent">
-                    <img src="./images/logo.png" alt="logo">
+                <div class="case-card case-card3">
+                    <div class="card-overlay card-overlay3">
+                    <div class="card-content">
+                        <h3>CASE #021 — <span class="case-title">ELIZA</span></h3>
+                        <p>Last seen at 11:47 PM. Never made it home.</p>
+                        <button>VIEW CASE</button>
+                    </div>
+                    </div>
+
                 </div>
-                <div class="social">
-                    <i class="fa-brands fa-facebook-f"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-x-twitter"></i>
-                    <i class="fa-brands fa-youtube"></i>
-                    <i class="fa-brands fa-whatsapp"></i>
-                </div>
-                <p>© 2026 Energy Gym. All Rights Reserved.</p>
             </div>
-        </div> <!-- /footer -->
-        
+        </div>
+    </section>
+    <section class="evedince">
+        <div class="evedince-container container-width">
+            <h4 class="eve-room">EVIDENCE ROOM</h4>
+            <div class="evedince-top-bar">
+                <div class="eve-top-bar-left">
+                    <h2>EVERY DETAIL MATTERS</h2>
+                </div>
+                <div class="eve-top-bar-right">
+                    <ul>
+                        <li class="eve-active">ALL</li>
+                        <li>PHYSICAL</li>
+                        <li>DIGITAL</li>
+                        <li>DOCUMENTS</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="evedince-parent">
+                <i class="fa-solid fa-chevron-left evedince-arrow left-arrow"></i>                
+                <div class="evedince-card evedince-card1">
+                    <div class="evedince-card-inner">
+                        <img src="./images/fpred.jpg" alt="fingerprint">
+                        <div class="evedince-card-overlay">
+                            <div class="evedince-card-content">
+                                <h4>FINGERPRINT</h4>
+                                <div class="eve-icons">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                    <i class="fa-solid fa-folder-open"></i>                            
+                                </div>
+                                <p class="eve-p">Partial print recovered from the crime scene.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>FINGERPRINT — 01</h3>
+                    <h4>CASE #001 · <span>ACTIVE</span></h4>
+                </div>
+                <div class="evedince-card evedince-card2">
+                    <div class="evedince-card-inner">
+                        <img src="./images/CCTVRED.png" alt="cctv">
+                        <div class="evedince-card-overlay">
+                            <div class="evedince-card-content">
+                                <h4>SURVEILLANCE</h4>
+                                <div class="eve-icons">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                    <i class="fa-solid fa-folder-open"></i>                            
+                                </div>
+                                <p class="eve-p">Unknown figure captured at 11:47 PM.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>CCTV FOOTAGE — 02</h3>
+                    <h4>CASE #009 · <span>ACTIVE</span></h4>
+                </div>
+                <div class="evedince-card evedince-card3">
+                    <div class="evedince-card-inner">
+                        <img src="./images/who.jpg" alt="location">
+                        <div class="evedince-card-overlay">
+                            <div class="evedince-card-content">
+                                <h4>LAST LOCATION</h4>
+                                <div class="eve-icons">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                    <i class="fa-solid fa-folder-open"></i>                            
+                                </div>
+                                <p class="eve-p">Last known location of the missing person.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>LOCATION — 03</h3>
+                    <h4>CASE #012 · <span>COLD</span></h4>
+                </div>
+                <div class="evedince-card evedince-card4">
+                    <div class="evedince-card-inner">
+                        <img src="./images/coldCaseClosed.jpg" alt="fingerprint">
+                        <div class="evedince-card-overlay">
+                            <div class="evedince-card-content">
+                                <h4>CLASSIFIED FILE</h4>
+                                <div class="eve-icons">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                    <i class="fa-solid fa-folder-open"></i>                            
+                                </div>
+                                <p class="eve-p">Information recovered from the victim's office.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>CLASSIFIED DOCUMENT - 04</h3>
+                    <h4>CASE #003 · <span>CLOSED</span></h4>
+                </div>
+                <i class="fa-solid fa-chevron-right evedince-arrow right-arrow"></i>
+            </div>
+        </div>    
+    </section>
+    <section class="detec-inves">
+        <div class="detec-inves-container container-width">
+            <h4 class="detec-inves-head">DETECTIVE INVESTIGATIONS</h4>
+            <p class="every-case">Every case has a different story. Here’s what investigators discovered along the way.</p>
+            <div class="content-parent">
+                <i class="fa-solid fa-chevron-left detec-inves-arrow left-arrow"></i>                
+                <div class="content">
+                    <h4>"The evidence didn't point to the obvious suspect. The smallest detail in the victim's office changed the entire direction of the investigation."</h4>
+                </div>
+                <i class="fa-solid fa-chevron-right detec-inves-arrow right-arrow"></i>
+            </div>
+            <div class="lower-content">
+                <div class="img-parent">
+                    <img src="./images/a4.jpg" alt="">
+                </div>
+                <div class="img-content">
+                    <h4 class="detec-name">DAVID MILLER</h4>
+                    <p class="detec-pos">Lead Investigator</p>
+                    <p class="detec-case"><span class="about">about</span> CASE #011 — <span class="room">THE RED ROOM</span></p>
+                </div>
+            </div>
+        </div>
+
+    </section>  
+    <section class="our-inves">
+        <div class="our-inves-container container-width">
+            <h4 class="our-inves-room">MEET THE INVESTIGATORS</h4>
+            <h2 class="our-inves-p">Meet the investigators who follow every clue.</h2>
+            <div class="our-inves-parent">
+                <i class="fa-solid fa-chevron-left our-inves-arrow left-arrow"></i>                
+                <div class="our-inves-card our-inves-card1">
+                    <div class="our-inves-card-inner">
+                        <img src="./images/cctv.jpg" alt="detective">
+                        <div class="our-inves-card-overlay">
+                            <div class="our-inves-card-content">
+                                <h4 class="case-sol">26 CASES <span class="solved">SOLVED</span></h4>
+                                <p class="dec-p">Lead Detective</p>
+                                <div class="our-inves-icons">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                    <i class="fa-solid fa-folder-open"></i>                            
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="dec-name">JAMES CARTER</h4>
+                </div>
+                <div class="our-inves-card our-inves-card2">
+                    <div class="our-inves-card-inner">
+                        <img src="./images/detective.jpg" alt="detective">
+                        <div class="our-inves-card-overlay">
+                            <div class="our-inves-card-content">
+                                <h4 class="case-sol">7 CASES <span class="solved">SOLVED</span></h4>
+                                <p class="dec-p">Forensic Investigator</p>
+                                <div class="our-inves-icons">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                    <i class="fa-solid fa-folder-open"></i>                            
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="dec-name">SCOTT MORGAN</h4>
+                </div>
+                <div class="our-inves-card our-inves-card3">
+                    <div class="our-inves-card-inner">
+                        <img src="./images/detec3jpg.jpg" alt="detective">
+                        <div class="our-inves-card-overlay">
+                            <div class="our-inves-card-content">
+                                <h4 class="case-sol">18 CASES <span class="solved">SOLVED</span></h4>
+                                <p class="dec-p">Private Investigator</p>
+                                <div class="our-inves-icons">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                    <i class="fa-solid fa-folder-open"></i>                            
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="dec-name">DAVID HAYES</h4>
+                </div>
+                <div class="our-inves-card our-inves-card4">
+                    <div class="our-inves-card-inner">
+                        <img src="./images/e.jpg" alt="detective">
+                        <div class="our-inves-card-overlay">
+                            <div class="our-inves-card-content">
+                                <h4 class="case-sol">20 CASES <span class="solved">SOLVED</span></h4>
+                                <p class="dec-p">Digital Forensics Expert</p>
+                                <div class="our-inves-icons">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                    <i class="fa-solid fa-folder-open"></i>                            
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="dec-name">JOHN REED</h4>
+                </div>
+                <i class="fa-solid fa-chevron-right our-inves-arrow right-arrow"></i>
+            </div>
+        </div>
+    </section> 
+    <section class="cases-reports">
+        <div class="cases-reports-con container-width">
+            <h4 class="">CASE REPORTS</h4>
+            <h2>LATEST INVESTIGATIONS</h2>
+            <div class="cases-reports-parent">
+                <div class="case-card case-card1">
+                    <div class="card-overlay card-overlay1">
+                    </div>
+                    <div class="card-content">
+                        <h3>CASE #001 — <span class="case-title">THE GARRON</span></h3>
+                        <p>New evidence has reopened the investigation into the disappearance of a local businessman.</p>
+                        <button>READ CASE</button>
+                    </div>
+                </div>
+                <div class="case-card case-card2">
+                    <div class="card-overlay card-overlay2">
+                    </div>
+                    <div class="card-content">
+                        <h3>CASE #011 — <span class="case-title">THE RED ROOM</span></h3>
+                        <p>Investigators have discovered a new clue that could finally explain what happened inside the locked room.</p>
+                        <button>READ CASE</button>
+                    </div>
+                </div>
+                <div class="case-card case-card3">
+                    <div class="card-overlay card-overlay3">
+                    </div>
+                    <div class="card-content">
+                        <h3>CASE #021 — <span class="case-title">ELIZA</span></h3>
+                        <p>A recently recovered photograph may reveal the last known location of Eliza before she disappeared.</p>
+                        <button>READ CASE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="why-case">
+        <div class="why-con container-width">
+            <div class="card-parent">
+                <div class="card card1">
+                    <div class="icon-parent">
+                        <i class="fa-solid fa-magnifying-glass upper-i"></i>
+                        <i class="fa-solid fa-magnifying-glass lower-i"></i>
+                    </div>
+                    <h4>EVERY CLUE MATTERS</h4>
+                    <p>We follow every detail, no matter how small.</p>
+                </div>
+                <div class="card card2">
+                    <div class="icon-parent">
+                        <i class="fa-solid fa-folder-open upper-i"></i>
+                        <i class="fa-solid fa-folder-open lower-i"></i>
+                    </div>
+                    <h4>CLASSIFIED FILES</h4>
+                    <p>Access the records hidden from the public.</p>
+                </div>
+                <div class="card card3">
+                    <div class="icon-parent">
+                        <i class="fa-solid fa-droplet upper-i"></i>
+                        <i class="fa-solid fa-droplet lower-i"></i>
+                    </div>
+                    <h4>UNSOLVED CASES</h4>
+                    <p>Explore investigations that remain unanswered.</p>
+                </div>
+                <div class="card card4">
+                    <div class="icon-parent">
+                        <i class="fa-solid fa-user-secret upper-i"></i>
+                        <i class="fa-solid fa-user-secret lower-i"></i>
+                    </div>
+                    <h4>SEEK THE TRUTH</h4>
+                    <p>Every investigation ends where the truth begins.</p>
+                </div> 
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="upper-footer">
+                <div class="upper-left-content sec">
+                    <h4>CASE ALERT</h4>
+                    <p>Get notified when a new case is opened.</p>
+                </div>
+                <div class="upper-mid-content sec">
+                    <input type="email" placeholder="Enter Your email...">
+                    <button>JOIN</button>
+                </div>
+                <div class="upper-right-content sec">
+                    <div class="footer-upper-icons">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="mid-footer">
+                <div class="mid-parent">
+                    <div class="footer-logo">
+                        <img src="./images/main-logo.png" alt="">
+                    </div>
+                    <div class="links">
+                        <div class="midFooter-files links-group">
+                            <h3>CASE FILES</h3>
+                            <h4>OPEN CASES</h4>
+                            <h4>CLOSED CASES</h4>
+                            <h4>COLD CASES</h4>
+                            <h4>CASE ARCHIVE</h4>
+                        </div>
+                        <div class="midFooter-eve links-group">
+                            <h3>EVIDENCE</h3>
+                            <h4>LATEST EVIDENCE</h4>
+                            <h4>CRIME SCENES</h4>
+                            <h4>DOCUMENTS</h4>
+                            <h4>SURVEILLANCE</h4>
+                            <h4>CLASSIFIED</h4>
+                        </div>
+                        <div class="midFooter-invs links-group">
+                            <h3>INVESTIGATION</h3>
+                            <h4>ACTIVE CASES</h4>
+                            <h4>CASE REPORTS</h4>
+                            <h4>INVESTIGATORS</h4>
+                            <h4>CASE ARCHIVE</h4>
+                            <h4>UNSOLVED CASES</h4>
+                        </div>
+                        <div class="midFooter-quick links-group">
+                            <h3>QUICK LINKS</h3>
+                            <h4>INVESTIGATORS</h4>
+                            <h4>ABOUT US</h4>
+                            <h4>PRIVACY POLICY</h4>
+                            <h4>FAQ</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <h5 class="rights">© 2026 <span class="case">CASE <span class="zero">ZERO</span></span> INVESTIGATION AGENCY ALL RIGHTS RESERVED.</h5>
+            </div>
+        </div>
+
+    </footer>
 </body>
 </html>
